@@ -1,12 +1,12 @@
 package names
 
-import "google.golang.org/grpc/naming"
+import nm "google.golang.org/grpc/naming"
 
-func Resolve() naming.Watcher {
+func Resolve() nm.Watcher {
 	return nil
 }
 
-type Watcher = naming.Watcher
+type Watcher = nm.Watcher
 
 func Alias() Watcher {
 	return nil
